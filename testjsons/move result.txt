@@ -1,0 +1,10 @@
+Timestamp
+Number of requests:
+Name: response.name
+ID: response.id
+Accuracy: response.accuracy
+PP: response.pp
+Power: response.power
+Type: response.type.name
+Damage class: response.damage_class.name
+Effect (Short): response.effect_entries ???

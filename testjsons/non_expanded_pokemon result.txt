@@ -1,0 +1,27 @@
+timestamp
+Number of requests: number of requests
+for request in requests:
+    Name: response.name
+    ID: response.id
+    Height: response.height
+    Weight: response.weight
+    Types: for type in response.types:
+                type.name
+
+    Stats:
+    ------
+    #tuples
+    for i in stats:
+        (response.stats[i].name, response.base_stat)
+
+    Abilities:
+    ------
+
+    for ability in response.abilities:
+        (ability.name)
+
+    Moves:
+
+    for move in response.moves:
+        (move.move.name, move.version_group_details.level_learned_at)
+

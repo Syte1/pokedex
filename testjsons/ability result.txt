@@ -1,0 +1,11 @@
+Timestamp : time
+Number of Requests: number
+
+for request in Request:
+	request.name
+	request.ID
+	request.Generation.name
+	effect_entries = [if effect.leanguage.name == 'en' for effect in request.effect_entries]
+	effect = effect_entries[0].effect
+	short_effect = effect_entries[0].short_effect
+	pokemon = [pokemon.name for pokemon in request.pokemon]
